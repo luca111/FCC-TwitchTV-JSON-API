@@ -1,0 +1,21 @@
+#titleDiv {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.responseStream {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.online {
+   background-color: #82BF89 !important;
+}
+
+#onlineTab {
+  background-color: #82BF89 !important;
+}
+
+#offlineTab {
+background-color: #f5f5f5 !important;
+}

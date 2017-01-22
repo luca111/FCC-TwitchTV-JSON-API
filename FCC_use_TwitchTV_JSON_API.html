@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <div id="titleDiv" class="col-md-6 col-md-offset-3">
+      <h1>Twitch streamers</h1>
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#allUsersDiv" data-toggle="tab" role="tab">All</a></li>
+        <li role="presentation" id="onlineTab"><a href="#userOnlineDiv" data-toggle="tab" role="tab">Online</a></li>
+        <li role="presentation" id="offlineTab"><a href="#userOfflineDiv" data-toggle="tab" role="tab">Offline</a></li>
+      </ul>
+    </div>
+
+    <div class="tab-content">
+      <div id="allUsersDiv" class="tab-pane active" role="tabpanel">
+        <div class="userOnline col-md-6 col-md-offset-3">
+        </div>
+        <div class="userOffline col-md-6 col-md-offset-3">
+        </div>
+      </div>
+
+      <div id="userOnlineDiv" class="userOnline col-md-6 col-md-offset-3 tab-pane" role="tabpanel">
+      </div>
+
+      <div id="userOfflineDiv" class="userOffline col-md-6 col-md-offset-3 tab-pane" role="tabpanel">
+      </div>
+    </div>
+    <!-- Bootstrap's JavaScript requires jQuery version 1.9.1 or higher, but lower than version 3 . Used therefore jQuery 2.2.4-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
